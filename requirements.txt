@@ -1,0 +1,10 @@
+# Voice Agent — modo "delegado": só STT + TTS + cliente HTTP
+faster-whisper>=1.1.0
+edge-tts>=7.0.0
+miniaudio>=1.59
+sounddevice>=0.4.6
+numpy>=1.26,<3.0
+truststore>=0.10.0
+httpx>=0.28           # cliente HTTP (já vem com edge-tts mas explicito)
+python-dotenv>=1.0    # ler .env
+truststore>=0.10.0    # para certificados SSL (edge-tts)
